@@ -1,0 +1,35 @@
+.romeo {
+    background-color: black;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+.romeo ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.romeo li {
+    list-style: none;
+    margin: 5px;
+}
+
+.romeo a {
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color 0.25s;
+    padding-right: 10px;
+    font-family: "Jost", sans-serif;
+}
+
+.romeo a:hover {
+    background-color: #FFD800;
+    color: black;
+    border: #FFD800;
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 840px) and (min-width: 485px) {
+    main, footer, header {
+        display: block;
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    
+    .caption {
+        padding: 0px;
+    }
+
+    .column1 main section, h4 {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding-left: 50px;
+        height: 40px;
+    }
+
+}
