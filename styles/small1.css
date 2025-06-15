@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 843px) {
     main, footer, header {
         display: block;
         width: 65%;
