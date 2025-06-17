@@ -1,12 +1,12 @@
 .romeo {
     background-color: black;
-    border-radius: 0px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .romeo ul {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 12.5px;
 }
 
 .romeo li {
@@ -17,21 +17,35 @@
 .romeo a {
     text-decoration: none;
     color:white;
-    padding: 11.5px;
+    padding: 10px;
     margin: 5px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     box-sizing: border-box;
     /*border-bottom: solid 1.5px rgb(154, 154, 154);*/
     transition: background-color 0.25s;
-    padding-right: 10px;
     font-family: "Jost", sans-serif;
+    border-left: solid 1.5px rgb(154, 154, 154);
 }
 
 .romeo a:hover {
     background-color: #FFD800;
-    padding-bottom: 11.5px;
     color: black;
     border: #FFD800;
+    padding-left: 11.5px;
     text-decoration: none;
+}
+
+.romeo ul li {
+    letter-spacing: 1.35px;
+    font-weight: 400;
+
+}
+
+.frame {
+    width: 40px;
+    padding-left: 12.5px;
+    float: left;
+    padding-top: 12.5px;
+    margin: auto;
 }

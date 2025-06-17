@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+html {
+    font-family: "Jost", sans-serif;
+    box-sizing: border-box;
+    background-image: url(/images/heidi-bruce-3Quyl26xAG0-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 40%;    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+.pg3-header {
+    padding-bottom: 70px;
+}
+
+.pg3-content {
+    box-sizing: content-box;
+    background-color: #00000065;
+    width: 730px;
+    padding: 70px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.pg3-subtitle {
+    font-weight: 500;
+    color: #ffee90;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.pg3-body {
+    padding-top: 0;
+    padding-bottom: 105px;
+    letter-spacing: 1px;
+    font-weight: 330;
+}
+
+.pg3-description {
+    box-sizing: content-box;
+    background-color: #00000065;
+    font-size: 15px;
+    line-height: 1.35;
+    padding: 30px;
+}
+
+.pg3-header :hover, .pg3-body :hover, .pg3-subtitle :hover {
+    color: #FFD800;
+    transition: color 0.25s ease-in-out;
+
+}
+
+footer img {
+    width: 300px;
+    padding-bottom: 10px;
+    float: center;
+}
+
+b {
+    color: #FFD800;
+    font-weight: 550;
+}
+
+footer p {
+    line-height: 0.5;
+    font-size: 12px;
+    letter-spacing: 1.35px;
+    font-weight: 330;
+}
+
+
+/* media  queries */
+
+/*S*/
+@media screen and (max-width: 843px) {
+    .pg3-content {
+        width: 350px;
+        padding: 35px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    html {
+        background-position: bottom;
+    }
+    
+    footer p {
+        font-size: 10.65px;
+    }
+
+    .pg3-subtitle {
+    font-size: 18px;
+    }
+
+    footer img {
+    width: 250px;
+}
+
+}
+
+/*M*/
+@media screen and (max-width: 843px) and (min-width: 575px) {
+    .pg3-content {
+        width: 500px;
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    html {
+        background-position: top;
+    }
+}

@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 843px) and (min-width: 485px) {
+@media screen and (max-width: 935px) and (min-width: 700px) {
     main, footer, header {
-        display: block;
-        width: 70%;
+        display: grid;
+        width: 80%;
         margin: auto;
-        display: block;
     }
     
     .caption {
-        padding: 0px;
+        padding-left: 100px;
     }
 
     .column1 main section, h4 {
@@ -17,9 +16,9 @@
     }
 
     h1 {
-        font-size: 30px;
-        padding-left: 50px;
+        font-size: 18px;
         height: 40px;
+        padding-right: 20px;
     }
 
 }
