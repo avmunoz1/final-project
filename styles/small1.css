@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 845px) {
     main, footer, header {
         display: block;
         width: 65%;
@@ -17,9 +17,17 @@
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 18px;
         padding-left: 50px;
+        padding-right: 0;
         height: 35px;
+        margin-bottom: 90px;
+    }
+
+    .top a, .top h3 {
+        font-size: 8px;
+        padding-right: 0px;
+        margin: 3px;
     }
 
 }

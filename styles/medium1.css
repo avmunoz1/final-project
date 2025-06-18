@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 935px) and (min-width: 700px) {
+@media screen and (max-width: 845px) and (min-width: 600px) {
     main, footer, header {
         display: grid;
         width: 80%;
@@ -16,9 +16,15 @@
     }
 
     h1 {
-        font-size: 18px;
+        font-size: 23px;
         height: 40px;
         padding-right: 20px;
+    }
+
+    .top a, .top h3 {
+        font-size: 12px;
+        padding-right: 0px;
+        margin: 1.5px;
     }
 
 }

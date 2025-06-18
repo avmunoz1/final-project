@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+html {
+    font-family: "Jost", sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 40%;    color: black;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
