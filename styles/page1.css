@@ -2,16 +2,12 @@
 
 html {
     font-family: "Jost", sans-serif;
-    background-image: url(../images/BOLORTSETSEG-MINJIN.png);
-    background-color: #031f1a;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 180%;
-    background-position-y: 30%;
+    box-sizing: border-box;
+    background-color: white;
+    background-size: cover;
     background-attachment: fixed;
-    display: grid;
-    color: white;
+    background-position-y: 40%;    color: black;
+    text-align: center;
 }
 
 body {
@@ -19,84 +15,3 @@ body {
     padding: 0px;
 }
 
-.minjin h1 {
-    padding: 70px;
-    display: grid;
-    margin: auto;
-    border-left: solid 1px white;
-    border-right: solid 1px white;
-    border-top: solid 6px white;
-    border-bottom: solid 6px white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-    text-align: center;
-}
-
-
-.minjin {
-    display: grid;
-    grid-template-columns: auto auto 1;
-}
-
-.minjin h2 {
-    border-bottom: solid 1px white;
-    padding: 40px;
-    margin-top: 0;
-    display: grid;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 4px;
-    font-weight: 500;
-
-}
-
-/*.minjin h3 {
-    display: grid;
-    padding-left: 50px;
-    position: absolute;
-}*/
-
-.fossils h4 {
-    font-size: 20px;
-    font-weight: 500px;
-    margin-bottom: 0;
-    padding-bottom: 10px;
-}
-
-.fossils p {
-    margin-top: 0;
-}
-
-.minjin-content {
-    padding: 70px;
-    display: grid;
-    width: 50px;
-    width: 500px;
-    background-color: #031f1a;
-}
-
-/* media  queries */
-
-/*S*/
-/*@media screen and (max-width: 843px) {
-    .minjin-content {
-        
-    }
-}
-
-
-/*M*/
-/*@media screen and (max-width: 843px) and (min-width: 575px) {
-    .minjin-content {
-        background-color: transparent;
-    }
-
-    html {
-        background-image: url(../images/BOLORTSETSEG-MINJIN.png);
-        background-size: cover;
-    }
-
-    .minjin h2, h3 {
-        width: 70px;
-    }
-}*/

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Geographic | June 2025</title>
+    <link href="../styles/gallery.css" rel="stylesheet">
+    <link href="../styles/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+        <script>
+            fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
+    <main class="gallery">
+        <section class="magazine">
+            <h1>MAGAZINE SCANS</h1>
+            <img src="../images/pg1.jpeg">
+            <img src="../images/pg3.jpeg">
+        </section>
+        <section class="photos">
+            <h1>IMAGES</h1>
+            <img src="../images/BOLORTSETSEG-MINJIN.png">
+            <p>Rebecca Hale | National Geographic</p>
+            <img src="../images/heidi-bruce-3Quyl26xAG0-unsplash.png">
+            <p>Heidi Bruce | Unsplash</p>
+        </section>
+    </main>
+</body>
+</html>
