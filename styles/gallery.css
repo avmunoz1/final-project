@@ -6,6 +6,11 @@ html {
     color: white;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .gallery {
     padding: 30px;
     display: grid;
