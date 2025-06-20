@@ -3,11 +3,11 @@
 html {
     font-family: "Jost", sans-serif;
     box-sizing: border-box;
-    background-color: white;
+    background-image: url(../images/explore-yellowstone-lake-getting-there.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position-y: 40%;    color: black;
-    text-align: center;
+    background-attachment: fixed;   
+    color: white;
 }
 
 body {
@@ -15,3 +15,137 @@ body {
     padding: 0px;
 }
 
+.ys {
+    display: inline-block;
+    width: 700px;
+    padding: 20px;
+}
+
+.ys h1 {
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+    line-height: 80px;
+    padding-bottom: 10px;
+}
+
+.ys h2 {
+    line-height: 30px;
+    margin:auto;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.ys h3 {
+    line-height: 30px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.yellowstone {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 70px;
+    margin-left: 700px;
+    font-size: 12px;
+    text-align: left;
+    scale: 100%;
+    
+}
+
+.yellowstone b {
+    letter-spacing: 1.35px;
+    font-size: 10px;
+}
+
+.yellowstone u {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.summer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-bottom: solid 5px white;
+    margin-bottom: 20px;
+}
+
+.tm1, .tm2, .tm3, .summer {
+    line-height: 14px;
+}
+
+.tm2 ul {
+    margin: 0;
+    padding: 15px;
+}
+
+.yellowstone p {
+    letter-spacing: 0.5px;
+}
+
+.tm1 {
+    grid-column: 1;
+    padding-right: 20px;
+}
+
+.tm2 {
+    grid-column: 2;
+    padding-right: 10px;
+    border-left: solid 1px white;
+    padding-left: 10px;
+}
+
+.tm3 {
+    grid-column: 3;
+    padding-right: 10px;
+    border-left: solid 1px white;
+    padding-left: 10px;
+}
+
+
+/* media  queries */
+
+/*S*/
+@media screen and (max-width: 750px) {
+    .yellowstone {
+        margin-left: 0px;
+        scale: 90%;
+        float: center;
+    }
+
+    .ys {
+        
+    }
+
+    .ys h1 {
+       font-size: 32px;
+       padding-bottom: 0px;
+    }
+
+    .ys h2 {
+        width: 350px;
+        font-size: 11.5px;
+        margin-left: 0;
+        line-height: 15px;
+    }
+
+    .ys h3 {
+        width: 300px;
+        font-size: 10px;
+        line-height: 15px;
+        padding-top: 5px;
+    }
+    
+}
+
+/*M*/
+@media screen and (max-width: 1200px) and (min-width: 750px) {
+
+    .yellowstone {
+        margin-left: 0px;
+    }
+}
